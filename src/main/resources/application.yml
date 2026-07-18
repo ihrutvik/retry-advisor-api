@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: retry-advisor-api
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+server:
+  port: 8080
